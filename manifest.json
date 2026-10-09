@@ -1,0 +1,24 @@
+{
+  "name": "SASSI DEL VALLE · LINE Analizador Territorial",
+  "short_name": "SASSI 3D",
+  "description": "Visualizador Territorial y Masterplan 3D de SASSI DEL VALLE",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0b0e12",
+  "theme_color": "#183d37",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192' width='192' height='192'%3E%3Crect width='192' height='192' fill='%23183d37' rx='38'/%3E%3Cpath d='M96 36L152 74V134L96 156L40 134V74L96 36Z' fill='none' stroke='%23e7bd70' stroke-width='8'/%3E%3Ccircle cx='96' cy='96' r='20' fill='%23e7bd70'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' width='512' height='512'%3E%3Crect width='512' height='512' fill='%23183d37' rx='96'/%3E%3Cpath d='M256 96L412 198V364L256 416L100 364V198L256 96Z' fill='none' stroke='%23e7bd70' stroke-width='22'/%3E%3Ccircle cx='256' cy='256' r='54' fill='%23e7bd70'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
