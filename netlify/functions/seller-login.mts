@@ -1,11 +1,10 @@
 import { createHmac, scryptSync, timingSafeEqual } from "node:crypto";
 
-// LINE / SASSI — autenticacion de vendedor.
-// No poner contrasenas, hashes conocidos ni secretos de sesion en archivos publicos.
-// Configurar en el servidor:
-//   SELLER_PASSWORD o (SELLER_PASSWORD_SALT + SELLER_PASSWORD_HASH)
-//   SELLER_SESSION_SECRET (minimo 32 bytes, independiente de la contrasena).
-// Si falta la configuracion, el acceso permanece bloqueado.
+// LINE / SASSI — acceso con contraseña fija verificada solamente en Netlify.
+// Aquí se guarda su hash scrypt, no la contraseña en texto claro.
+// SELLER_SESSION_SECRET continúa siendo privado en Netlify para firmar las sesiones.
+const PASSWORD_SALT = "ecb5f9be7d36d170d515521cfaadb257";
+const PASSWORD_HASH = "69fac5a8bb873631f9599431228711e9acc185ebe7daa6b6259ddf07fee5bdfa";
 const SESSION_HOURS = 12;
 const noStore = { "Cache-Control": "no-store", "X-Content-Type-Options": "nosniff" };
 
@@ -14,27 +13,15 @@ function normalizePassword(value: string): string {
 }
 
 function validConfiguration(): boolean {
-  const secret = process.env.SELLER_SESSION_SECRET || "";
-  const plain = process.env.SELLER_PASSWORD || "";
-  const salt = process.env.SELLER_PASSWORD_SALT || "";
-  const hash = process.env.SELLER_PASSWORD_HASH || "";
-  const hasPassword = Boolean(plain) || (/^[a-f0-9]{32,}$/i.test(salt) && /^[a-f0-9]{64}$/i.test(hash));
-  return Buffer.byteLength(secret, "utf8") >= 32 && hasPassword;
+  // Reutiliza la clave privada existente. Un valor de 16+ bytes habilita
+  // sesiones firmadas; una clave aleatoria de 32+ bytes es recomendable.
+  return Buffer.byteLength(process.env.SELLER_SESSION_SECRET || "", "utf8") >= 16;
 }
 
 function passwordMatches(raw: string): boolean {
   const input = normalizePassword(raw);
-  const plain = process.env.SELLER_PASSWORD || "";
-  if (plain) {
-    const candidate = createHmac("sha256", "seller-compare").update(input).digest();
-    const expected = createHmac("sha256", "seller-compare").update(normalizePassword(plain)).digest();
-    return timingSafeEqual(candidate, expected);
-  }
-  const salt = process.env.SELLER_PASSWORD_SALT || "";
-  const hash = process.env.SELLER_PASSWORD_HASH || "";
-  if (!/^[a-f0-9]{32,}$/i.test(salt) || !/^[a-f0-9]{64}$/i.test(hash)) return false;
-  const candidate = scryptSync(input, salt, 32);
-  return timingSafeEqual(candidate, Buffer.from(hash, "hex"));
+  const candidate = scryptSync(input, PASSWORD_SALT, 32);
+  return timingSafeEqual(candidate, Buffer.from(PASSWORD_HASH, "hex"));
 }
 
 function sign(payload: string): string {
