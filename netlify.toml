@@ -1,5 +1,5 @@
 [build]
-  command = "node scripts/sassi-temp-open-seller.cjs"
+  command = "node scripts/patch-seller-login.cjs"
   publish = "."
 
 [[headers]]
