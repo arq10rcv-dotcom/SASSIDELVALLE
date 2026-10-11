@@ -10,8 +10,14 @@ function sessionSecret() {
   return process.env.SELLER_SESSION_SECRET || process.env.SELLER_PASSWORD || PASSWORD_HASH;
 }
 
-function passwordMatches(input: string) {
-  const envPassword = process.env.SELLER_PASSWORD;
+// Ignora mayúsculas/minúsculas y espacios: "NO LE VOY A PARAR", "no le voy a parar" y "nolevoyaparar" son equivalentes.
+function normalizePassword(value: string) {
+  return String(value ?? "").normalize("NFC").toLowerCase().replace(/\s+/g, "");
+}
+
+function passwordMatches(rawInput: string) {
+  const input = normalizePassword(rawInput);
+  const envPassword = process.env.SELLER_PASSWORD ? normalizePassword(process.env.SELLER_PASSWORD) : "";
   if (envPassword) {
     const a = createHmac("sha256", "cmp").update(input).digest();
     const b = createHmac("sha256", "cmp").update(envPassword).digest();
