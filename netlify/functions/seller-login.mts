@@ -1,74 +1,101 @@
 import { createHmac, scryptSync, timingSafeEqual } from "node:crypto";
 
-// Hash scrypt de la contraseña de vendedor. La contraseña nunca viaja al navegador.
-// Para cambiarla sin tocar código, define la variable de entorno SELLER_PASSWORD en Netlify.
-const PASSWORD_SALT = "a2a1a16a753860f2efdb3d571dff5e1b";
-const PASSWORD_HASH = "47ff8a54312c9d2b7462cc6f2ff758106d9d0928c8d54010dd973edfdbf12685";
+// LINE / SASSI — autenticacion de vendedor.
+// No poner contrasenas, hashes conocidos ni secretos de sesion en archivos publicos.
+// Configurar en el servidor:
+//   SELLER_PASSWORD o (SELLER_PASSWORD_SALT + SELLER_PASSWORD_HASH)
+//   SELLER_SESSION_SECRET (minimo 32 bytes, independiente de la contrasena).
+// Si falta la configuracion, el acceso permanece bloqueado.
 const SESSION_HOURS = 12;
+const noStore = { "Cache-Control": "no-store", "X-Content-Type-Options": "nosniff" };
 
-function sessionSecret() {
-  return process.env.SELLER_SESSION_SECRET || process.env.SELLER_PASSWORD || PASSWORD_HASH;
-}
-
-// Ignora mayúsculas/minúsculas y espacios: "NO LE VOY A PARAR", "no le voy a parar" y "nolevoyaparar" son equivalentes.
-function normalizePassword(value: string) {
+function normalizePassword(value: string): string {
   return String(value ?? "").normalize("NFC").toLowerCase().replace(/\s+/g, "");
 }
 
-function passwordMatches(rawInput: string) {
-  const input = normalizePassword(rawInput);
-  const envPassword = process.env.SELLER_PASSWORD ? normalizePassword(process.env.SELLER_PASSWORD) : "";
-  if (envPassword) {
-    const a = createHmac("sha256", "cmp").update(input).digest();
-    const b = createHmac("sha256", "cmp").update(envPassword).digest();
-    return timingSafeEqual(a, b);
+function validConfiguration(): boolean {
+  const secret = process.env.SELLER_SESSION_SECRET || "";
+  const plain = process.env.SELLER_PASSWORD || "";
+  const salt = process.env.SELLER_PASSWORD_SALT || "";
+  const hash = process.env.SELLER_PASSWORD_HASH || "";
+  const hasPassword = Boolean(plain) || (/^[a-f0-9]{32,}$/i.test(salt) && /^[a-f0-9]{64}$/i.test(hash));
+  return Buffer.byteLength(secret, "utf8") >= 32 && hasPassword;
+}
+
+function passwordMatches(raw: string): boolean {
+  const input = normalizePassword(raw);
+  const plain = process.env.SELLER_PASSWORD || "";
+  if (plain) {
+    const candidate = createHmac("sha256", "seller-compare").update(input).digest();
+    const expected = createHmac("sha256", "seller-compare").update(normalizePassword(plain)).digest();
+    return timingSafeEqual(candidate, expected);
   }
-  const candidate = scryptSync(input, PASSWORD_SALT, 32);
-  return timingSafeEqual(candidate, Buffer.from(PASSWORD_HASH, "hex"));
+  const salt = process.env.SELLER_PASSWORD_SALT || "";
+  const hash = process.env.SELLER_PASSWORD_HASH || "";
+  if (!/^[a-f0-9]{32,}$/i.test(salt) || !/^[a-f0-9]{64}$/i.test(hash)) return false;
+  const candidate = scryptSync(input, salt, 32);
+  return timingSafeEqual(candidate, Buffer.from(hash, "hex"));
 }
 
-function sign(payload: string) {
-  return createHmac("sha256", sessionSecret()).update(payload).digest("base64url");
+function sign(payload: string): string {
+  return createHmac("sha256", process.env.SELLER_SESSION_SECRET!).update(payload).digest("base64url");
 }
 
-function issueToken() {
-  const payload = Buffer.from(JSON.stringify({ role: "seller", exp: Date.now() + SESSION_HOURS * 3600_000 })).toString("base64url");
+function issueToken(): string {
+  const payload = Buffer.from(JSON.stringify({
+    role: "seller",
+    exp: Date.now() + SESSION_HOURS * 3_600_000,
+  })).toString("base64url");
   return payload + "." + sign(payload);
 }
 
-function verifyToken(token: string) {
-  const [payload, signature] = String(token || "").split(".");
-  if (!payload || !signature) return false;
+function verifyToken(token: string): boolean {
+  if (!token || token.length > 2048) return false;
+  const parts = token.split(".");
+  if (parts.length !== 2 || !parts[0] || !parts[1]) return false;
+  const [payload, signature] = parts;
   const expected = Buffer.from(sign(payload));
   const given = Buffer.from(signature);
   if (expected.length !== given.length || !timingSafeEqual(expected, given)) return false;
   try {
     const data = JSON.parse(Buffer.from(payload, "base64url").toString("utf8"));
-    return data.role === "seller" && Number(data.exp) > Date.now();
+    return data.role === "seller" && Number.isFinite(data.exp) && data.exp > Date.now();
   } catch {
     return false;
   }
 }
 
-const noStore = { "Cache-Control": "no-store" };
-
 export default async (req: Request) => {
+  if (req.method !== "GET" && req.method !== "POST") {
+    return new Response("Method Not Allowed", {
+      status: 405,
+      headers: { ...noStore, Allow: "GET, POST" },
+    });
+  }
+  if (!validConfiguration()) {
+    return Response.json({ ok: false, error: "not_configured" }, {
+      status: 503,
+      headers: noStore,
+    });
+  }
   if (req.method === "GET") {
     const auth = req.headers.get("authorization") || "";
     const ok = verifyToken(auth.replace(/^Bearer\s+/i, ""));
-    return Response.json({ ok }, { status: ok ? 200 : 401, headers: noStore });
+    return Response.json({ ok }, {
+      status: ok ? 200 : 401,
+      headers: noStore,
+    });
   }
-  if (req.method !== "POST") return new Response("Method Not Allowed", { status: 405 });
-
   let password = "";
   try {
     password = String((await req.json())?.password ?? "").trim();
-  } catch {}
+  } catch {
+    // JSON invalido.
+  }
   if (password && password.length <= 200 && passwordMatches(password)) {
     return Response.json({ ok: true, token: issueToken() }, { headers: noStore });
   }
-  // Pausa breve para frenar intentos repetidos.
-  await new Promise((r) => setTimeout(r, 800));
+  await new Promise((resolve) => setTimeout(resolve, 800));
   return Response.json({ ok: false }, { status: 401, headers: noStore });
 };
 
