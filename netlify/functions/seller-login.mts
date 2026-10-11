@@ -5,7 +5,6 @@ import { createHmac, scryptSync, timingSafeEqual } from "node:crypto";
 // SELLER_SESSION_SECRET continúa siendo privado en Netlify para firmar las sesiones.
 const PASSWORD_SALT = "ecb5f9be7d36d170d515521cfaadb257";
 const PASSWORD_HASH = "69fac5a8bb873631f9599431228711e9acc185ebe7daa6b6259ddf07fee5bdfa";
-const SESSION_HOURS = 12;
 const noStore = { "Cache-Control": "no-store", "X-Content-Type-Options": "nosniff" };
 
 function normalizePassword(value: string): string {
@@ -25,14 +24,14 @@ function passwordMatches(raw: string): boolean {
 }
 
 function sign(payload: string): string {
-  return createHmac("sha256", process.env.SELLER_SESSION_SECRET!).update(payload).digest("base64url");
+  // Cambiar PASSWORD_HASH también revoca cualquier token anterior.
+  return createHmac("sha256", process.env.SELLER_SESSION_SECRET!)
+    .update(PASSWORD_HASH + "." + payload)
+    .digest("base64url");
 }
 
 function issueToken(): string {
-  const payload = Buffer.from(JSON.stringify({
-    role: "seller",
-    exp: Date.now() + SESSION_HOURS * 3_600_000,
-  })).toString("base64url");
+  const payload = Buffer.from(JSON.stringify({ role: "seller" })).toString("base64url");
   return payload + "." + sign(payload);
 }
 
@@ -46,7 +45,7 @@ function verifyToken(token: string): boolean {
   if (expected.length !== given.length || !timingSafeEqual(expected, given)) return false;
   try {
     const data = JSON.parse(Buffer.from(payload, "base64url").toString("utf8"));
-    return data.role === "seller" && Number.isFinite(data.exp) && data.exp > Date.now();
+    return data.role === "seller";
   } catch {
     return false;
   }
