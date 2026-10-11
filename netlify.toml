@@ -1,3 +1,7 @@
+[build]
+  command = "node scripts/sassi-temp-open-seller.cjs"
+  publish = "."
+
 [[headers]]
   for = "/*"
   [headers.values]
