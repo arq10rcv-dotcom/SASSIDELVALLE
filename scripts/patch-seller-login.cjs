@@ -30,3 +30,6 @@ if (!html.includes('id="sassi-seller-login-click-fix"')) {
 
 fs.writeFileSync(file, html, 'utf8');
 console.log('[SASSI] Login Vendedor: ventana reforzada, validación en Netlify conservada.');
+
+// Hito local: conservar puntos 360, imagenes y colores tras volver a abrir la pagina.
+require('./apply-local-persistence.cjs');
