@@ -33,3 +33,6 @@ console.log('[SASSI] Login Vendedor: ventana reforzada, validación en Netlify c
 
 // Hito local: conservar puntos 360, imagenes y colores tras volver a abrir la pagina.
 require('./apply-local-persistence.cjs');
+
+// Restaurar estatus 00_LOTES desde copia verificada; mantener lector vivo.
+require('./patch-sassi-sheet-sync.cjs');
