@@ -1,0 +1,810 @@
+{
+  "ok": true,
+  "schema": "sassi-status-v1",
+  "project": "SASSI_DEL_VALLE",
+  "source": "00_LOTES",
+  "generatedAt": "2026-10-15T19:40:31.865Z",
+  "lots": [
+    {
+      "lote_id": "SV-001",
+      "estatus": "APARTADO"
+    },
+    {
+      "lote_id": "SV-002",
+      "estatus": "APARTADO"
+    },
+    {
+      "lote_id": "SV-003",
+      "estatus": "APARTADO"
+    },
+    {
+      "lote_id": "SV-004",
+      "estatus": "APARTADO"
+    },
+    {
+      "lote_id": "SV-005",
+      "estatus": "VENDIDO"
+    },
+    {
+      "lote_id": "SV-006",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-007",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-008",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-009",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-010",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-011",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-012",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-013",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-014",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-015",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-016",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-017",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-018",
+      "estatus": "VENDIDO"
+    },
+    {
+      "lote_id": "SV-019",
+      "estatus": "VENDIDO"
+    },
+    {
+      "lote_id": "SV-020",
+      "estatus": "APARTADO"
+    },
+    {
+      "lote_id": "SV-021",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-022",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-023",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-024",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-025",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-026",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-027",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-028",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-029",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-030",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-031",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-032",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-033",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-034",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-035",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-036",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-037",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-038",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-039",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-040",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-041",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-042",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-043",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-044",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-045",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-046",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-047",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-048",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-049",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-050",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-051",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-052",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-053",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-054",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-055",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-056",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-057",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-058",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-059",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-060",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-061",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-062",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-063",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-064",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-065",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-066",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-067",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-068",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-069",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-070",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-071",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-072",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-073",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-074",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-075",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-076",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-077",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-078",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-079",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-080",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-081",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-082",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-083",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-084",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-085",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-086",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-087",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-088",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-089",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-090",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-091",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-092",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-093",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-094",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-095",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-096",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-097",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-098",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-099",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-100",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-101",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-102",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-103",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-104",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-105",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-106",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-107",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-108",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-109",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-110",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-111",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-112",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-113",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-114",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-115",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-116",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-117",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-118",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-119",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-120",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-121",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-122",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-123",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-124",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-125",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-126",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-127",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-128",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-129",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-130",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-131",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-132",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-133",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-134",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-135",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-136",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-137",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-138",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-139",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-140",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-141",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-142",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-143",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-144",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-145",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-146",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-147",
+      "estatus": "VENDIDO"
+    },
+    {
+      "lote_id": "SV-148",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-149",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-150",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-151",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-152",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-153",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-154",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-155",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-156",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-157",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-158",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-159",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-160",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-161",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-162",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-163",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-164",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-165",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-166",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-167",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-168",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-169",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-170",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-171",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-172",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-173",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-174",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-175",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-176",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-177",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-178",
+      "estatus": "APARTADO"
+    },
+    {
+      "lote_id": "SV-179",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-180",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-181",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-182",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-183",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-184",
+      "estatus": "APARTADO"
+    },
+    {
+      "lote_id": "SV-185",
+      "estatus": "APARTADO"
+    },
+    {
+      "lote_id": "SV-186",
+      "estatus": "APARTADO"
+    },
+    {
+      "lote_id": "SV-187",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-188",
+      "estatus": "APARTADO"
+    },
+    {
+      "lote_id": "SV-189",
+      "estatus": "APARTADO"
+    },
+    {
+      "lote_id": "SV-190",
+      "estatus": "APARTADO"
+    },
+    {
+      "lote_id": "SV-191",
+      "estatus": "APARTADO"
+    },
+    {
+      "lote_id": "SV-192",
+      "estatus": "APARTADO"
+    },
+    {
+      "lote_id": "SV-193",
+      "estatus": "APARTADO"
+    },
+    {
+      "lote_id": "SV-194",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-195",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-196",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-197",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-198",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-199",
+      "estatus": "DISPONIBLE"
+    },
+    {
+      "lote_id": "SV-200",
+      "estatus": "DISPONIBLE"
+    }
+  ],
+  "warnings": []
+}
