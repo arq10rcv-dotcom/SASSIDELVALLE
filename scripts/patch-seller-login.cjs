@@ -36,3 +36,6 @@ require('./apply-local-persistence.cjs');
 
 // Restaurar estatus 00_LOTES desde copia verificada; mantener lector vivo.
 require('./patch-sassi-sheet-sync.cjs');
+
+// H03: impresion 3D de las capas nativas sobre la malla Google visible.
+require('./apply-3d-terrain-imprint.cjs');
