@@ -39,3 +39,6 @@ require('./patch-sassi-sheet-sync.cjs');
 
 // H03: impresion 3D de las capas nativas sobre la malla Google visible.
 require('./apply-3d-terrain-imprint.cjs');
+
+// H04: subcapas cortas en la malla 3D, sin interpolacion de un solo plano.
+require('./apply-3d-interior-tiling.cjs');
