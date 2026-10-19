@@ -37,6 +37,8 @@ jobs:
         run: node scripts/apply-3d-terrain-imprint.cjs
       - name: Subdivide SASSI 3D overlay interiors to conform to mesh
         run: node scripts/apply-3d-interior-tiling.cjs
+      - name: Synchronize verified USD sale prices from 00_LOTES column G
+        run: node scripts/patch-price-col-g.cjs
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact

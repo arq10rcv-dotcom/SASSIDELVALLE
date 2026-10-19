@@ -1,0 +1,810 @@
+{
+  "schema": "sassi-prices-g-v1",
+  "project": "SASSI_DEL_VALLE",
+  "source": "00_LOTES!G",
+  "column": "VALOR APs",
+  "currency": "USD",
+  "generatedAt": "2026-10-19T18:52:58.631Z",
+  "lots": [
+    {
+      "lote_id": "SV-001",
+      "valor_aps": 3334500
+    },
+    {
+      "lote_id": "SV-002",
+      "valor_aps": 3393000
+    },
+    {
+      "lote_id": "SV-003",
+      "valor_aps": 5820750
+    },
+    {
+      "lote_id": "SV-004",
+      "valor_aps": 7268625
+    },
+    {
+      "lote_id": "SV-005",
+      "valor_aps": 877500
+    },
+    {
+      "lote_id": "SV-006",
+      "valor_aps": 1082250
+    },
+    {
+      "lote_id": "SV-007",
+      "valor_aps": 731250
+    },
+    {
+      "lote_id": "SV-008",
+      "valor_aps": 1228500
+    },
+    {
+      "lote_id": "SV-009",
+      "valor_aps": 1023750
+    },
+    {
+      "lote_id": "SV-010",
+      "valor_aps": 1228500
+    },
+    {
+      "lote_id": "SV-011",
+      "valor_aps": 1477125
+    },
+    {
+      "lote_id": "SV-012",
+      "valor_aps": 4928625
+    },
+    {
+      "lote_id": "SV-013",
+      "valor_aps": 2734875
+    },
+    {
+      "lote_id": "SV-014",
+      "valor_aps": 2062125
+    },
+    {
+      "lote_id": "SV-015",
+      "valor_aps": 2661750
+    },
+    {
+      "lote_id": "SV-016",
+      "valor_aps": 3992625
+    },
+    {
+      "lote_id": "SV-017",
+      "valor_aps": 1404000
+    },
+    {
+      "lote_id": "SV-018",
+      "valor_aps": 921375
+    },
+    {
+      "lote_id": "SV-019",
+      "valor_aps": 833625
+    },
+    {
+      "lote_id": "SV-020",
+      "valor_aps": 687375
+    },
+    {
+      "lote_id": "SV-021",
+      "valor_aps": 1389375
+    },
+    {
+      "lote_id": "SV-022",
+      "valor_aps": 921375
+    },
+    {
+      "lote_id": "SV-023",
+      "valor_aps": 892125
+    },
+    {
+      "lote_id": "SV-024",
+      "valor_aps": 994500
+    },
+    {
+      "lote_id": "SV-025",
+      "valor_aps": 906750
+    },
+    {
+      "lote_id": "SV-026",
+      "valor_aps": 2149875
+    },
+    {
+      "lote_id": "SV-027",
+      "valor_aps": 1360125
+    },
+    {
+      "lote_id": "SV-028",
+      "valor_aps": 979875
+    },
+    {
+      "lote_id": "SV-029",
+      "valor_aps": 1009125
+    },
+    {
+      "lote_id": "SV-030",
+      "valor_aps": 950625
+    },
+    {
+      "lote_id": "SV-031",
+      "valor_aps": 570375
+    },
+    {
+      "lote_id": "SV-032",
+      "valor_aps": 979875
+    },
+    {
+      "lote_id": "SV-033",
+      "valor_aps": 877500
+    },
+    {
+      "lote_id": "SV-034",
+      "valor_aps": 1213875
+    },
+    {
+      "lote_id": "SV-035",
+      "valor_aps": 731250
+    },
+    {
+      "lote_id": "SV-036",
+      "valor_aps": 438750
+    },
+    {
+      "lote_id": "SV-037",
+      "valor_aps": 687375
+    },
+    {
+      "lote_id": "SV-038",
+      "valor_aps": 950625
+    },
+    {
+      "lote_id": "SV-039",
+      "valor_aps": 672750
+    },
+    {
+      "lote_id": "SV-040",
+      "valor_aps": 1038375
+    },
+    {
+      "lote_id": "SV-041",
+      "valor_aps": 804375
+    },
+    {
+      "lote_id": "SV-042",
+      "valor_aps": 1433250
+    },
+    {
+      "lote_id": "SV-043",
+      "valor_aps": 1974375
+    },
+    {
+      "lote_id": "SV-044",
+      "valor_aps": 643500
+    },
+    {
+      "lote_id": "SV-045",
+      "valor_aps": 745875
+    },
+    {
+      "lote_id": "SV-046",
+      "valor_aps": 1067625
+    },
+    {
+      "lote_id": "SV-047",
+      "valor_aps": 760500
+    },
+    {
+      "lote_id": "SV-048",
+      "valor_aps": 1023750
+    },
+    {
+      "lote_id": "SV-049",
+      "valor_aps": 1023750
+    },
+    {
+      "lote_id": "SV-050",
+      "valor_aps": 1243125
+    },
+    {
+      "lote_id": "SV-051",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-052",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-053",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-054",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-055",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-056",
+      "valor_aps": 1272375
+    },
+    {
+      "lote_id": "SV-057",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-058",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-059",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-060",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-061",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-062",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-063",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-064",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-065",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-066",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-067",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-068",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-069",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-070",
+      "valor_aps": 819000
+    },
+    {
+      "lote_id": "SV-071",
+      "valor_aps": 819000
+    },
+    {
+      "lote_id": "SV-072",
+      "valor_aps": 1053000
+    },
+    {
+      "lote_id": "SV-073",
+      "valor_aps": 1170000
+    },
+    {
+      "lote_id": "SV-074",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-075",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-076",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-077",
+      "valor_aps": 1798875
+    },
+    {
+      "lote_id": "SV-078",
+      "valor_aps": 819000
+    },
+    {
+      "lote_id": "SV-079",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-080",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-081",
+      "valor_aps": 1418625
+    },
+    {
+      "lote_id": "SV-082",
+      "valor_aps": 672750
+    },
+    {
+      "lote_id": "SV-083",
+      "valor_aps": 1184625
+    },
+    {
+      "lote_id": "SV-084",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-085",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-086",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-087",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-088",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-089",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-090",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-091",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-092",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-093",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-094",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-095",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-096",
+      "valor_aps": 1433250
+    },
+    {
+      "lote_id": "SV-097",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-098",
+      "valor_aps": 1184625
+    },
+    {
+      "lote_id": "SV-099",
+      "valor_aps": 1140750
+    },
+    {
+      "lote_id": "SV-100",
+      "valor_aps": 526500
+    },
+    {
+      "lote_id": "SV-101",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-102",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-103",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-104",
+      "valor_aps": 1462500
+    },
+    {
+      "lote_id": "SV-105",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-106",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-107",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-108",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-109",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-110",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-111",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-112",
+      "valor_aps": 1155375
+    },
+    {
+      "lote_id": "SV-113",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-114",
+      "valor_aps": 789750
+    },
+    {
+      "lote_id": "SV-115",
+      "valor_aps": 1243125
+    },
+    {
+      "lote_id": "SV-116",
+      "valor_aps": 1243125
+    },
+    {
+      "lote_id": "SV-117",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-118",
+      "valor_aps": 979875
+    },
+    {
+      "lote_id": "SV-119",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-120",
+      "valor_aps": 819000
+    },
+    {
+      "lote_id": "SV-121",
+      "valor_aps": 819000
+    },
+    {
+      "lote_id": "SV-122",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-123",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-124",
+      "valor_aps": 862875
+    },
+    {
+      "lote_id": "SV-125",
+      "valor_aps": 877500
+    },
+    {
+      "lote_id": "SV-126",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-127",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-128",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-129",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-130",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-131",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-132",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-133",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-134",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-135",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-136",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-137",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-138",
+      "valor_aps": 1009125
+    },
+    {
+      "lote_id": "SV-139",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-140",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-141",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-142",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-143",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-144",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-145",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-146",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-147",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-148",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-149",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-150",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-151",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-152",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-153",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-154",
+      "valor_aps": 1345500
+    },
+    {
+      "lote_id": "SV-155",
+      "valor_aps": 1287000
+    },
+    {
+      "lote_id": "SV-156",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-157",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-158",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-159",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-160",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-161",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-162",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-163",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-164",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-165",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-166",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-167",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-168",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-169",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-170",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-171",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-172",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-173",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-174",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-175",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-176",
+      "valor_aps": 1477125
+    },
+    {
+      "lote_id": "SV-177",
+      "valor_aps": 628875
+    },
+    {
+      "lote_id": "SV-178",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-179",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-180",
+      "valor_aps": 994500
+    },
+    {
+      "lote_id": "SV-181",
+      "valor_aps": 1272375
+    },
+    {
+      "lote_id": "SV-182",
+      "valor_aps": 307125
+    },
+    {
+      "lote_id": "SV-183",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-184",
+      "valor_aps": 950625
+    },
+    {
+      "lote_id": "SV-185",
+      "valor_aps": 1096875
+    },
+    {
+      "lote_id": "SV-186",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-187",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-188",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-189",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-190",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-191",
+      "valor_aps": 570375
+    },
+    {
+      "lote_id": "SV-192",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-193",
+      "valor_aps": 819000
+    },
+    {
+      "lote_id": "SV-194",
+      "valor_aps": 965250
+    },
+    {
+      "lote_id": "SV-195",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-196",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-197",
+      "valor_aps": 0
+    },
+    {
+      "lote_id": "SV-198",
+      "valor_aps": 877500
+    },
+    {
+      "lote_id": "SV-199",
+      "valor_aps": 731250
+    },
+    {
+      "lote_id": "SV-200",
+      "valor_aps": 0
+    }
+  ]
+}
