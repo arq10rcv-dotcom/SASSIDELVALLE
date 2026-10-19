@@ -42,3 +42,6 @@ require('./apply-3d-terrain-imprint.cjs');
 
 // H04: subcapas cortas en la malla 3D, sin interpolacion de un solo plano.
 require('./apply-3d-interior-tiling.cjs');
+
+// H05: precio total USD de 00_LOTES columna G, mismo ID de lote.
+require('./patch-price-col-g.cjs');
