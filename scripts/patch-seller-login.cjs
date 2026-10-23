@@ -45,3 +45,6 @@ require('./apply-3d-interior-tiling.cjs');
 
 // H05: precio total USD de 00_LOTES columna G, mismo ID de lote.
 require('./patch-price-col-g.cjs');
+
+// H06: única adición autorizada: extrusión de lotes según ALTURA DE CASONA m (BH).
+require('./apply-casona-bh-extrusions.cjs');
