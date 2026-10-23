@@ -45,3 +45,8 @@ require('./apply-3d-interior-tiling.cjs');
 
 // H05: precio total USD de 00_LOTES columna G, mismo ID de lote.
 require('./patch-price-col-g.cjs');
+
+// PREMIUM V1 — experimental branch only; never run in main.
+require('./patch-premium-experience.cjs');
+// H07: Vista Three.js tecnica experimental con extrusiones BH.
+require('./patch-premium-modelo3d.cjs');
