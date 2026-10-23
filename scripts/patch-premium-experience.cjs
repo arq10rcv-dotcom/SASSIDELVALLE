@@ -7,8 +7,20 @@ const marker='SASSI_PREMIUM_BRANCH_V1';
 if(html.includes(marker)){console.log('[SASSI PREMIUM] Already injected');process.exit(0)}
 if(!html.includes('id="card"')||!html.includes('id="toolbar"')||!html.includes('id="entryGate"')||!html.includes('id="startBuyer"')||!html.includes('id="openSeller"'))throw Error('[SASSI PREMIUM] Existing source changed, safe stop.');
 if(html.split('</head>').length!==2||html.split('</body>').length!==2)throw Error('[SASSI PREMIUM] Unexpected document structure');
-html=html.replace('</head>',`<!-- ${marker} -->\n<link rel="stylesheet" href="./scripts/premium-experience.css">\n<link rel="stylesheet" href="./scripts/premium-casonas-3d.css">\n</head>`);
-html=html.replace('</body>',`<script defer src="./scripts/premium-experience.js"></script>\n<script defer src="./scripts/premium-casonas-3d.js"></script>\n</body>`);
+html=html.replace('</head>',`<!-- ${marker} -->\n<link rel="stylesheet" href="./scripts/premium-experience.css">\n<link rel="stylesheet" href="./scripts/premium-casonas-3d.css">\n<link rel="stylesheet" href="./scripts/premium-modelo3d.css">\n<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"}}</script>\n</head>`);
+html=html.replace('</body>',`<script>
+window.sassiTechnicalBridge={
+  get features(){try{return typeof FEATURES!=='undefined'?FEATURES:[]}catch(e){return []}},
+  status(id){try{return typeof getLotStatus==='function'?getLotStatus(id):'SIN_DEFINIR'}catch(e){return 'SIN_DEFINIR'}},
+  select(feature){if(typeof selectLot==='function')selectLot(feature,true)},
+  setViewMode(mode){if(typeof setViewMode==='function')setViewMode(mode)},
+  viewMode(){try{return typeof viewMode!=='undefined'?viewMode:'masterplan'}catch(e){return 'masterplan'}}
+};
+</script>
+<script defer src="./scripts/premium-experience.js"></script>
+<script defer src="./scripts/premium-casonas-3d.js"></script>
+<script defer src="./scripts/premium-modelo3d.js"></script>
+</body>`);
 
 // Height sync is optional: older Apps Script readers will keep the verified BH snapshot.
 function replaceOptionalOnce(from,to,label){
