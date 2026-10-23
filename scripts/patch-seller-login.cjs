@@ -33,3 +33,6 @@ console.log('[SASSI] Login Vendedor: ventana reforzada, validación en Netlify c
 
 // Hito local: conservar puntos 360, imagenes y colores tras volver a abrir la pagina.
 require('./apply-local-persistence.cjs');
+
+// ÚNICA MODIFICACIÓN AUTORIZADA: casonas extruidas por columna BH del Excel.
+require('./apply-casona-bh-only.cjs');
