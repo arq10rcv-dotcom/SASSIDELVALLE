@@ -1,0 +1,808 @@
+{
+  "schema": "sassi-casonas-alturas-v1",
+  "source": "00_LOTES!BH",
+  "column": "ALTURA DE CASONA m",
+  "project": "SASSI_DEL_VALLE",
+  "heights": [
+    {
+      "lote_id": "SV-001",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-002",
+      "altura_casona_m": 12
+    },
+    {
+      "lote_id": "SV-003",
+      "altura_casona_m": 12
+    },
+    {
+      "lote_id": "SV-004",
+      "altura_casona_m": 12
+    },
+    {
+      "lote_id": "SV-005",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-006",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-007",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-008",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-009",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-010",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-011",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-012",
+      "altura_casona_m": 12
+    },
+    {
+      "lote_id": "SV-013",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-014",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-015",
+      "altura_casona_m": 12
+    },
+    {
+      "lote_id": "SV-016",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-017",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-018",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-019",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-020",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-021",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-022",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-023",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-024",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-025",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-026",
+      "altura_casona_m": 15
+    },
+    {
+      "lote_id": "SV-027",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-028",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-029",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-030",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-031",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-032",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-033",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-034",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-035",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-036",
+      "altura_casona_m": 3
+    },
+    {
+      "lote_id": "SV-037",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-038",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-039",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-040",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-041",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-042",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-043",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-044",
+      "altura_casona_m": 3
+    },
+    {
+      "lote_id": "SV-045",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-046",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-047",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-048",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-049",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-050",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-051",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-052",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-053",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-054",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-055",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-056",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-057",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-058",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-059",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-060",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-061",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-062",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-063",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-064",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-065",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-066",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-067",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-068",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-069",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-070",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-071",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-072",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-073",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-074",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-075",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-076",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-077",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-078",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-079",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-080",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-081",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-082",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-083",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-084",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-085",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-086",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-087",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-088",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-089",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-090",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-091",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-092",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-093",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-094",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-095",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-096",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-097",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-098",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-099",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-100",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-101",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-102",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-103",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-104",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-105",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-106",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-107",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-108",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-109",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-110",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-111",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-112",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-113",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-114",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-115",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-116",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-117",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-118",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-119",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-120",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-121",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-122",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-123",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-124",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-125",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-126",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-127",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-128",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-129",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-130",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-131",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-132",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-133",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-134",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-135",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-136",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-137",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-138",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-139",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-140",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-141",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-142",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-143",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-144",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-145",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-146",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-147",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-148",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-149",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-150",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-151",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-152",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-153",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-154",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-155",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-156",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-157",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-158",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-159",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-160",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-161",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-162",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-163",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-164",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-165",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-166",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-167",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-168",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-169",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-170",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-171",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-172",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-173",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-174",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-175",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-176",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-177",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-178",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-179",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-180",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-181",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-182",
+      "altura_casona_m": 3
+    },
+    {
+      "lote_id": "SV-183",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-184",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-185",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-186",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-187",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-188",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-189",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-190",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-191",
+      "altura_casona_m": 3
+    },
+    {
+      "lote_id": "SV-192",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-193",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-194",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-195",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-196",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-197",
+      "altura_casona_m": 0
+    },
+    {
+      "lote_id": "SV-198",
+      "altura_casona_m": 6
+    },
+    {
+      "lote_id": "SV-199",
+      "altura_casona_m": 9
+    },
+    {
+      "lote_id": "SV-200",
+      "altura_casona_m": 0
+    }
+  ]
+}
