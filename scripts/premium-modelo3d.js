@@ -11,7 +11,7 @@ const status=id=>{try{return bridge()?.status(id)||'SIN_DEFINIR'}catch(_){return
 function lotColor(id){const palette=window.getSassiStatusColors?.()||{};const c=palette[status(id)]||colorByStatus[status(id)]||'#a3aa9d';return /^#[0-9a-f]{6}$/i.test(c)?c:'#a3aa9d';}
 function message(s,error=false){const node=el('stmMessage');if(node){node.textContent=s;node.classList.toggle('error',error)}}
 function bindSwitcher(){
- const parent=el('viewSwitcher');if(!parent||el('viewTechnicalModelBtn'))return;
+ const parent=el('viewSwitcher')||el('sp-launcher')||el('toolbar');if(!parent||el('viewTechnicalModelBtn'))return;
  const b=document.createElement('button');b.id='viewTechnicalModelBtn';b.type='button';b.textContent='Modelo 3D';
  b.title='Modelo técnico de casonas con altura del Excel';b.setAttribute('aria-pressed','false');
  b.addEventListener('click',()=>{void openModel()});parent.append(b);
@@ -206,8 +206,8 @@ function toggleView(yes){
 async function openModel(){
  if(enabled)return;
  setupUI();bindSwitcher();
- backMode=window.getSassiExplorerState?.().viewMode||'masterplan';
- window.setSassiViewMode?.('masterplan',{persist:false,focus:false});
+ backMode=B()?.viewMode?.()||'masterplan';
+ if(typeof B()?.setViewMode==='function')B().setViewMode('masterplan');
  toggleView(true);
  if(modelReady){resize();startFrame();return}
  if(busy)return;busy=true;el('stmBusy').hidden=false;
@@ -224,7 +224,7 @@ async function openModel(){
 function closeModel(returnToMap){
  if(!enabled)return;
  toggleView(false);
- if(returnToMap)window.setSassiViewMode?.(backMode,{persist:false,focus:false});
+ if(returnToMap&&typeof B()?.setViewMode==='function')B().setViewMode(backMode);
 }
 function dbOpen(){
  return new Promise((resolve,reject)=>{
