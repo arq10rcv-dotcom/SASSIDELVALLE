@@ -1,0 +1,46 @@
+
+/* HITO 07 · Modelo técnico 3D, experimental. No style changes in production. */
+body.sassi-technical-mode #explorerBar,body.sassi-technical-mode #sp-stats,body.sassi-technical-mode #sp-watermark{display:none!important}
+body.sassi-technical-mode #card{z-index:120!important}
+body.sassi-technical-mode #sp-launcher{z-index:125!important}
+#viewSwitcher #viewTechnicalModelBtn{white-space:nowrap}
+#viewSwitcher #viewTechnicalModelBtn[aria-pressed=true]{background:#213d34!important;color:#fff!important}
+#stmView{position:fixed;inset:var(--explorer-top,64px) 0 0;z-index:16;background:#b3d3df;overflow:hidden;color:#223d36;font-family:Rajdhani,Arial,sans-serif}
+#stmView[hidden]{display:none!important}
+#stmCanvas{position:absolute;inset:0;touch-action:none}
+#stmCanvas canvas{display:block;width:100%!important;height:100%!important;outline:none;touch-action:none}
+.stmHeading{position:absolute;left:20px;bottom:28px;display:flex;flex-direction:column;pointer-events:none;gap:3px;text-shadow:0 2px 10px #a1c1d6}
+.stmHeading small{font:700 11px Rajdhani,Arial,sans-serif;letter-spacing:.20em;color:#37554f}
+.stmHeading strong{font:500 43px 'Cormorant Garamond',Georgia,serif;color:#1b4239}
+.stmNav{position:absolute;top:19px;right:18px;background:rgba(250,248,239,.93);padding:8px 12px;border-radius:6px;font:700 16px Rajdhani,sans-serif;color:#20483e}
+.stmControls{position:absolute;top:113px;left:20px;display:flex;flex-direction:column;gap:7px;max-width:min(250px,calc(100vw - 36px));background:rgba(248,246,237,.96);border:1px solid rgba(42,77,63,.2);padding:12px;border-radius:10px;box-shadow:0 10px 30px rgba(29,66,60,.17)}
+.stmCamera{display:grid;grid-template-columns:repeat(3,1fr);gap:5px}
+.stmControls button,.stmUpload{background:#e9e8df;border:1px solid #cbd3c8;border-radius:5px;min-height:32px;padding:6px 9px;color:#24473c;cursor:pointer;font:700 13px Rajdhani,Arial,sans-serif;text-align:center}
+.stmControls button:hover,.stmUpload:hover{background:#d6e4d6}
+.stmControls label:not(.stmUpload){display:flex;align-items:center;gap:9px;font:600 13px Rajdhani,Arial,sans-serif;cursor:pointer;color:#344b43;padding:4px}
+.stmControls label input{accent-color:#244f41}
+#stmExit{background:#1d473e!important;color:#fff!important}
+.stmFooter{position:absolute;right:20px;bottom:24px;width:min(315px,calc(100vw - 36px));display:flex;flex-direction:column;gap:7px;padding:14px;border:1px solid rgba(32,69,56,.15);border-radius:10px;background:rgba(250,248,242,.94);box-shadow:0 8px 24px rgba(21,47,37,.18);line-height:1.25}
+.stmFooter strong{font-size:16px;color:#174337}
+.stmFooter span{font-size:13px;color:#385e50}
+.stmFooter span.error{color:#a64239;font-weight:700}
+.stmFooter small{font:12px/1.4 Rajdhani,Arial,sans-serif;color:#536d62}
+.stmBusy{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);padding:18px 22px;background:#f7f4ed;border-radius:8px;box-shadow:0 15px 50px #1a383944;color:#214b40;font:700 16px Rajdhani,sans-serif}
+.stmBusy[hidden]{display:none!important}
+@media(max-width:800px){
+ #stmView{inset:var(--explorer-top,60px) 0 0}
+ .stmControls{top:100px;left:10px;padding:7px;max-width:205px;gap:3px}
+ .stmControls button,.stmUpload{font-size:11px!important;padding:6px!important}
+ .stmHeading{left:12px;bottom:10px}
+ .stmHeading strong{font-size:26px}
+ .stmFooter{right:8px;bottom:8px;width:190px;padding:9px}
+ .stmFooter small{display:none}
+ .stmFooter span{font-size:11px}
+ .stmNav{top:10px;right:10px}
+}
+@media(max-width:540px){
+ .stmControls{top:72px;left:7px;max-width:178px}
+ .stmCamera{grid-template-columns:1fr}
+ .stmFooter{max-width:45vw}
+ .stmHeading small{font-size:8px}
+}
